@@ -32,7 +32,6 @@ This backend provides an API for searching and retrieving components based on me
 
    ```bash
    git clone https://github.com/jaissica/component-suggestion-tool-backend
-   cd your-project
       ```
 2. **Install dependencies:**
 ```bash
