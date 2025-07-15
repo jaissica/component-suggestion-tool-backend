@@ -6,12 +6,17 @@ const cors = require('cors');
 const app = express();
 
 const PORT = process.env.PORT || 5050;
-console.log('Loading MONGODB_URI from .env:');
-console.log('MONGODB_URI:', process.env.MONGODB_URI);
 const componentRoutes = require('./routes/componentRoutes');
 
+const allowedOrigins = ["https://component-suggestion-tool.netlify.app"];
 
-app.use(cors());
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true,
+  })
+);
+
 app.use(express.json());
 
 
