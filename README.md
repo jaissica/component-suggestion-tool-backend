@@ -31,7 +31,7 @@ This backend provides an API for searching and retrieving components based on me
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-repo-name/your-project.git
+   git clone https://github.com/jaissica/component-suggestion-tool-backend
    cd your-project
       ```
 2. **Install dependencies:**
@@ -48,7 +48,7 @@ This backend provides an API for searching and retrieving components based on me
  ```
    npm start
   ```
-
+The backend is currently on render
 ## API Endpoints
 
 ### Search Components
